@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "user",
+      "password": "1234",
+      "role": "user"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "3163",
+      "customer": "Massimo",
+      "date": "2025-06-23",
+      "time": "14:00",
+      "service": "Taglio ",
+      "status": "confirmed"
+    },
+    {
+      "id": "d012",
+      "customer": "Marco",
+      "date": "2025-06-23",
+      "time": "16:00",
+      "service": "Sfumatura",
+      "status": "confirmed"
+    },
+    {
+      "id": "0f4c",
+      "customer": "Massimo",
+      "time": "11:00",
+      "service": "Taglio ",
+      "status": "confirmed",
+      "date": "2025-06-24"
+    },
+    {
+      "id": "e6b1",
+      "customer": "Massimo",
+      "time": "11:00",
+      "service": "Barba",
+      "status": "confirmed",
+      "date": "2025-07-01"
+    },
+    {
+      "id": "b08b",
+      "customer": "Massimo",
+      "time": "14:00",
+      "service": "Sfumatura",
+      "status": "confirmed",
+      "date": "2025-07-02"
+    },
+    {
+      "id": "2573",
+      "customer": "Carlo",
+      "time": "16:00",
+      "service": "Taglio ",
+      "status": "confirmed",
+      "date": "2025-06-28"
+    }
+  ]
+}

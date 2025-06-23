@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  .animate-fade-in-out {
+    animation: fadeInOut 10s ease forwards;
+  }
+  
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  .animate-fade-in.delay-200 {
+    animation-delay: 0.2s;
+  }
+  
+  .animate-fade-in.delay-400 {
+    animation-delay: 0.4s;
+  }
+  
