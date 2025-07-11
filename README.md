@@ -40,7 +40,9 @@ Hairbook è una web app completa per la gestione di prenotazioni di un Barber Sh
 
 
 ---
-
+## Per accedere 
+UserMode: username = user, password = 1234
+AdminMode: username = admin, password = 1234
 
 ## Come installare ed eseguire il progetto
 
